@@ -1,0 +1,296 @@
+* {
+padding: 0;
+margin: 0;
+font-family: 'Ubuntu';
+}
+
+body {
+background-image: url("../images/galaxy_wallpaper.jpeg");
+background-size: cover;
+}
+
+a {
+font-weight: bold;
+text-decoration: none;
+color: white;
+margin: 5px;
+}
+
+.errors {
+font-weight: bold;
+font-size: 20px;
+display: flex;
+justify-content: center;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 50px;
+}
+
+p {
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+font-size: 30px;
+text-align: center;
+}
+
+span {
+margin: 5px;
+color: white;
+}
+
+input {
+border-radius: 5px;
+}
+
+/*Index*/
+.headerIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerIndex img {
+    margin-top: 20px;
+    width: 80px;
+    filter: invert(100%);
+}
+
+/*Register*/
+.containerRegistration {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerRegistration form {
+background-color: white;
+border-radius: 5px;
+}
+
+.containerRegistration * {
+margin: 5px;
+}
+
+/*Connection*/
+.containerConnection {
+position: absolute;
+top: 20%;
+left: 760px;
+}
+
+.containerConnection * {
+font-size: 25px;
+margin: 5px;
+}
+
+.containerConnection h1 {
+font-size: 40px;
+margin-bottom: -5px;
+padding: 5px;
+background-color: black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.containerConnection form {
+font-size: 25px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+background-color: white;
+}
+
+/*My account*/
+.containerProfile {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerProfile * {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.containerProfile a {
+text-decoration: none;
+}
+
+.containerProfile #avatarImg {
+    filter: invert(100%);
+}
+
+.containerProfile #hobbiesLogo {
+    filter: invert(100%);
+}
+
+.containerProfile img {
+    width: 150px;
+}
+
+.containerProfile .infos {
+font-weight: bolder;
+display: flex;
+align-items: center;
+}
+
+.containerProfile .infos img {
+width: 50px;
+}
+
+.headerProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerProfile img {
+    filter: invert(100%);
+    width: 60px;
+    height: 45px;
+}
+
+.accountLinks {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+}
+
+.searchLink {
+font-weight: bold;
+font-size: 30px;
+position: absolute;
+right: 20px;
+top: 10px;
+}
+
+/*Edit Profile*/
+.containerEdit {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerEdit form {
+border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px;
+background-color: white;
+}
+
+.containerEdit * {
+font-size: 20px;
+margin: 10px;
+}
+
+.containerEdit h1 {
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+font-size: 40px;
+padding: 6px;
+margin-bottom: -10px;
+background-color: black;
+}
+
+/*Delete Profile*/
+.containerDelete {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 100px;
+}
+
+.containerDelete a {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.containerDelete #deleteConf {
+margin-top: 10px;
+font-size: 50px;
+position: absolute;
+left: 40%;
+}
+
+/*Reactivate account*/
+.containerReactivate {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerReactivate * {
+margin: 10px;
+font-size: 40px;
+}
+
+/*Searching persons*/
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar a {
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#loupe {
+    cursor: default;
+    font-size: 40px;
+}
+
+.containerSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSearch form {
+    border: 3px solid white;
+}
+
+.containerSearch * {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.containerSearch label {
+font-weight: bold;
+color: white;
+}
+
+.searchedContainer {
+    text-align: center;
+}
+
+.searchedLine {
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+/*Drop down menu*/
+
+.hidden {
+display: none;
+}
